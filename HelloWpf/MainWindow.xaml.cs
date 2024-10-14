@@ -19,4 +19,9 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
     }
+
+    private void ChangeTextButton_Click(object sender, RoutedEventArgs e)
+    {
+        DisplayMessageTextBlock.Text = "Welcome to TOSINSO C# Mega Course!";
+    }
 }
