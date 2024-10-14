@@ -7,8 +7,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="ChangeTextButton" Content="Click ME!" HorizontalAlignment="Center" VerticalAlignment="Center" Height="53" Width="200" FontSize="16" Click="ChangeTextButton_Click"/>
-        <TextBlock x:Name="DisplayMessageTextBlock" HorizontalAlignment="Center" Margin="0,117,0,0" TextWrapping="Wrap" Text="Click bellow button to change text" VerticalAlignment="Top" Height="24" Width="780" TextAlignment="Center" FontSize="22"/>
-
+        
     </Grid>
 </Window>
